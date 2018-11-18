@@ -11,6 +11,8 @@ define(["globals"], globals => {
       }
     });
 
+  const test = (url, options = {}) => fetch(globals.SERVER + "/test", options);
+
   const response = (title, body) => {
     const structure = [
       [
@@ -45,5 +47,5 @@ define(["globals"], globals => {
       root.appendChild(el);
     });
 
-  return { request, response };
+  return { request, response, test };
 });
