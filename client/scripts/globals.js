@@ -1,5 +1,5 @@
 define(() => ({
   ROOT: document.getElementById("responses"),
-  SERVER: "https://app.vicnie.ml",
+  SERVER: "https://app.codeparty.ml",
   USERNAME: "victorwinberg"
 }));
