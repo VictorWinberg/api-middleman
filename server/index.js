@@ -12,7 +12,7 @@ const { omit, isNil, pickBy, isEmpty, mapValues } = require("lodash/fp");
 const { isGetMethod, isReqForm, isResJson } = require("./helpers");
 
 const app = express();
-const PORT = 3003;
+const PORT = 3009;
 
 app.use(express.static(path.resolve(__dirname, "..", "client")));
 app.use(bodyParser.json());
